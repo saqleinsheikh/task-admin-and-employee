@@ -2,7 +2,7 @@ import React from 'react'
 
 const Accepttask = ({data}) => {
   return (
-      <div className="shrink-0 h-full w-75 p-5 bg-red-400 rounded-xl ">
+      <div className="shrink-0 h-full w-75 p-5 bg-blue-400 rounded-xl ">
 <div className='flex justify-between items-center  '>
 <h3 className='bg-red-600 px-3 text-sm py-1 rounded'>{data.category}</h3>
 <h4 className='text-sm'>{data.taskDate}</h4>
